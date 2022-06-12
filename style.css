@@ -12,3 +12,34 @@ body {
     max-width: 960px;
     margin: 0 auto;
 }
+
+.flex-container {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 100px;
+    min-width: 200px;
+    flex-grow: 1;
+    /* width: 320px; */
+}
+
+.one {
+    background-color: red;
+    /* flex-grow: 5; */
+    /* flex-shrink: 1; */
+}
+
+.two {
+    background-color: blue;
+    /* flex-grow: 3; */
+    /* flex-shrink: 3; */
+}
+
+.three {
+    background-color: green;
+    /* flex-grow: 2; */
+    /* flex-shrink: 6; */
+}
