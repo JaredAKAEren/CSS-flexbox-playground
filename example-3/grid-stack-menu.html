@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-Stack-Menu</title>
+    <link rel="stylesheet" href="grid-stack-style.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <ul class="social">
+                <li><a href="" class="fb">Facebook</a></li>
+                <li><a href="" class="tw">Twitter</a></li>
+            </ul>
+        </nav>
+        <div class="layout">
+            <span>Layout:</span>
+            <a href="#" class="stack">Stack</a>
+            <a href="#" class="grid">Grid</a>
+        </div>
+        <section id="blocks">
+            <article>
+                <h2>I pity the fool...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cumque impedit officia distinctio
+                    dolorem temporibus mollitia blanditiis cupiditate suscipit nostrum pariatur commodi, ab non illo
+                    sapiente ducimus earum provident! Eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Omnis nulla explicabo, quidem porro soluta sapiente corrupti! Quaerat officiis velit et quod
+                    provident nulla natus aliquid tempore quam ipsa! Rerum, voluptatem!</p>
+            </article>
+            <article>
+                <h2>I pity the fool...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cumque impedit officia distinctio
+                    dolorem temporibus mollitia blanditiis cupiditate suscipit nostrum pariatur commodi, ab non illo
+                    sapiente ducimus earum provident! Eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Omnis nulla explicabo, quidem porro soluta sapiente corrupti! Quaerat officiis velit et quod
+                    provident nulla natus aliquid tempore quam ipsa! Rerum, voluptatem!</p>
+            </article>
+            <article>
+                <h2>I pity the fool...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cumque impedit officia distinctio
+                    dolorem temporibus mollitia blanditiis cupiditate suscipit nostrum pariatur commodi, ab non illo
+                    sapiente ducimus earum provident! Eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Omnis nulla explicabo, quidem porro soluta sapiente corrupti! Quaerat officiis velit et quod
+                    provident nulla natus aliquid tempore quam ipsa! Rerum, voluptatem!</p>
+            </article>
+            <article>
+                <h2>I pity the fool...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cumque impedit officia distinctio
+                    dolorem temporibus mollitia blanditiis cupiditate suscipit nostrum pariatur commodi, ab non illo
+                    sapiente ducimus earum provident! Eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Omnis nulla explicabo, quidem porro soluta sapiente corrupti! Quaerat officiis velit et quod
+                    provident nulla natus aliquid tempore quam ipsa! Rerum, voluptatem!</p>
+            </article>
+            <article>
+                <h2>I pity the fool...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cumque impedit officia distinctio
+                    dolorem temporibus mollitia blanditiis cupiditate suscipit nostrum pariatur commodi, ab non illo
+                    sapiente ducimus earum provident! Eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Omnis nulla explicabo, quidem porro soluta sapiente corrupti! Quaerat officiis velit et quod
+                    provident nulla natus aliquid tempore quam ipsa! Rerum, voluptatem!</p>
+            </article>
+            <article>
+                <h2>I pity the fool...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cumque impedit officia distinctio
+                    dolorem temporibus mollitia blanditiis cupiditate suscipit nostrum pariatur commodi, ab non illo
+                    sapiente ducimus earum provident! Eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Omnis nulla explicabo, quidem porro soluta sapiente corrupti! Quaerat officiis velit et quod
+                    provident nulla natus aliquid tempore quam ipsa! Rerum, voluptatem!</p>
+            </article>
+        </section>
+    </div>
+    <script>
+        $("a.stack").on("click", function () {
+            $("article").addClass("stack-view");
+        });
+        $("a.grid").on("click", function () {
+            $("article").removeClass("stack-view");
+        });
+    </script>
+</body>
+
+</html>
